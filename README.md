@@ -6,7 +6,7 @@ O projeto nasceu de um problema com clipes e gravações do Counter-Strike 2: el
 
 ## Baixar para Windows
 
-[Baixar o instalador do CS2 Video Stretcher 0.1.0](release/CS2VideoStretcher-Setup-0.1.0.exe). O instalador inclui o aplicativo, o FFmpeg e o FFprobe; não é necessário localizar ou instalar essas ferramentas separadamente.
+[Baixar o instalador do CS2 Video Stretcher 0.1.0](https://github.com/PedroHMDosSantos/CS2-Video-Stretcher/releases/download/v0.1.0/CS2VideoStretcher-Setup-0.1.0.exe). O instalador inclui o aplicativo, o FFmpeg e o FFprobe; não é necessário localizar ou instalar essas ferramentas separadamente.
 
 O pacote inclui uma compilação do FFmpeg com suporte a `libx264`. Os avisos de licença e as informações da compilação estão instalados junto ao aplicativo, na pasta `Licencas`.
 
@@ -60,7 +60,7 @@ py -3.12 -m pytest
 
 ## Instalador do Windows
 
-O instalador do Windows **já está disponível**: [baixar CS2 Video Stretcher 0.1.0](release/CS2VideoStretcher-Setup-0.1.0.exe). Ele inclui o aplicativo, o FFmpeg e o FFprobe; para usar o instalador, não é necessário instalar Python ou configurar o `PATH`.
+O instalador do Windows **já está disponível**: [baixar CS2 Video Stretcher 0.1.0](https://github.com/PedroHMDosSantos/CS2-Video-Stretcher/releases/download/v0.1.0/CS2VideoStretcher-Setup-0.1.0.exe). Ele inclui o aplicativo, o FFmpeg e o FFprobe; para usar o instalador, não é necessário instalar Python ou configurar o `PATH`.
 
 O instalador foi empacotado com PyInstaller e Inno Setup. Os avisos de licença e as informações do build do FFmpeg ficam disponíveis na pasta `Licencas` após a instalação.
 
