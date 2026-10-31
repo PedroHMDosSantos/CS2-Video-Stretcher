@@ -10,6 +10,16 @@ O projeto nasceu de um problema com clipes e gravações do Counter-Strike 2: el
 
 O pacote inclui uma compilação do FFmpeg com suporte a `libx264`. Os avisos de licença e as informações da compilação estão instalados junto ao aplicativo, na pasta `Licencas`.
 
+## Como usar
+
+1. Instale e abra o aplicativo pelo instalador acima.
+2. Selecione um vídeo compatível com FFmpeg, como uma gravação de gameplay.
+3. Confira a resolução e a duração detectadas.
+4. Escolha a resolução de saída e a qualidade. Um CRF menor gera mais qualidade e arquivos maiores.
+5. Escolha a pasta de destino e inicie a conversão.
+
+Por exemplo, uma gravação 1440×1080 exportada em 1920×1080 é esticada horizontalmente para 16:9. O quadro inteiro é mantido; os elementos ficam mais largos de propósito.
+
 ## Estado atual
 
 A versão funcional atual permite selecionar um vídeo, consultar resolução e duração, escolher resolução de saída, qualidade CRF e pasta de destino, além de acompanhar o progresso da conversão. Processamento em lote, NVENC, histórico, configurações salvas e pré-visualização ainda não foram implementados.
@@ -32,15 +42,6 @@ python -m cs2_stretcher
 ```
 
 O app não requer pacotes Python de terceiros para funcionar. Para executar pelo código-fonte, instale o FFmpeg e adicione ao `PATH` do Windows a pasta que contém `ffmpeg.exe` e `ffprobe.exe`.
-
-## Como usar
-
-1. Selecione um vídeo compatível com FFmpeg, como uma gravação de gameplay.
-2. Confira a resolução e a duração detectadas.
-3. Escolha a resolução de saída e a qualidade. Um CRF menor gera mais qualidade e arquivos maiores.
-4. Escolha a pasta de destino e inicie a conversão.
-
-Por exemplo, uma gravação 1440×1080 exportada em 1920×1080 é esticada horizontalmente para 16:9. O quadro inteiro é mantido; os elementos ficam mais largos de propósito.
 
 ## Estrutura do projeto
 
