@@ -191,7 +191,10 @@ class VideoStretcherApp(tk.Tk):
                     self.convert_button.configure(state="normal")
                     self._set_input_state("normal")
                     self.progress.configure(value=100)
-                    self.status.configure(text=f"Concluído: {event[1]}", fg="#76d7a5")
+                    self.status.configure(
+                        text="Conversão concluída com sucesso! Agora é só acessar a pasta selecionada e abrir o vídeo.",
+                        fg="#76d7a5",
+                    )
                 elif event[0] == "error":
                     self.convert_button.configure(state="normal")
                     self._set_input_state("normal")
