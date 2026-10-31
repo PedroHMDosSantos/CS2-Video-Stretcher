@@ -6,7 +6,7 @@ O projeto nasceu de um problema com clipes e gravações do Counter-Strike 2: el
 
 ## Baixar para Windows
 
-[Baixar o instalador do CS2 Video Stretcher 0.1.0](https://github.com/PedroHMDosSantos/CS2-Video-Stretcher/releases/download/v0.1.0/CS2VideoStretcher-Setup-0.1.0.exe). O instalador inclui o aplicativo, o FFmpeg e o FFprobe; não é necessário localizar ou instalar essas ferramentas separadamente.
+[Baixar o instalador do CS2 Video Stretcher 0.1.1](https://github.com/PedroHMDosSantos/CS2-Video-Stretcher/releases/download/v0.1.1/CS2VideoStretcher-Setup-0.1.1.exe). O instalador inclui o aplicativo, o FFmpeg e o FFprobe; não é necessário localizar ou instalar essas ferramentas separadamente.
 
 O pacote inclui uma compilação do FFmpeg com suporte a `libx264`. Os avisos de licença e as informações da compilação estão instalados junto ao aplicativo, na pasta `Licencas`.
 
