@@ -12,13 +12,13 @@ O pacote inclui uma compilação do FFmpeg com suporte a `libx264`. Os avisos de
 
 A versão funcional atual permite selecionar um vídeo, consultar resolução e duração, escolher resolução de saída, qualidade CRF e pasta de destino, além de acompanhar o progresso da conversão. Processamento em lote, NVENC, histórico, configurações salvas e pré-visualização ainda não foram implementados.
 
-## Requisitos
+## Requisitos para desenvolvimento
 
-- Windows 11 (o app também pode funcionar em outros sistemas com Tkinter)
-- Python 3.10 ou superior, com Tkinter
-- FFmpeg e FFprobe disponíveis no `PATH`
+- Windows 11
+- Python 3.12, com Tkinter
+- FFmpeg e FFprobe disponíveis no `PATH` para executar pelo código-fonte
 
-## Instalação e execução
+## Executar pelo código-fonte
 
 No PowerShell, na pasta do projeto:
 
@@ -29,7 +29,7 @@ python -m pip install -e .
 python -m cs2_stretcher
 ```
 
-O app não requer pacotes Python de terceiros para funcionar. Instale o FFmpeg separadamente e adicione ao `PATH` do Windows a pasta que contém `ffmpeg.exe` e `ffprobe.exe`. O app também procura algumas pastas comuns de instalação.
+O app não requer pacotes Python de terceiros para funcionar. Para executar pelo código-fonte, instale o FFmpeg e adicione ao `PATH` do Windows a pasta que contém `ffmpeg.exe` e `ffprobe.exe`.
 
 ## Como usar
 
@@ -55,9 +55,11 @@ py -3.12 -m pip install -e ".[dev]"
 py -3.12 -m pytest
 ```
 
-## Criar um executável para Windows
+## Instalador do Windows
 
-A configuração do PyInstaller está planejada; ainda não há executável distribuível. A inclusão e a distribuição do FFmpeg/FFprobe também precisam ser definidas antes de uma versão de lançamento.
+O instalador do Windows **já está disponível**: [baixar CS2 Video Stretcher 0.1.0](release/CS2VideoStretcher-Setup-0.1.0.exe). Ele inclui o aplicativo, o FFmpeg e o FFprobe; para usar o instalador, não é necessário instalar Python ou configurar o `PATH`.
+
+O instalador foi empacotado com PyInstaller e Inno Setup. Os avisos de licença e as informações do build do FFmpeg ficam disponíveis na pasta `Licencas` após a instalação.
 
 ## Licença
 
