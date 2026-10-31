@@ -2,6 +2,12 @@
 
 Aplicativo para Windows que converte gravações de gameplay do Counter-Strike 2 para widescreen esticado. O FFmpeg redimensiona o quadro inteiro, sem cortar a imagem nem adicionar barras pretas.
 
+## Baixar para Windows
+
+[Baixar o instalador do CS2 Video Stretcher 0.1.0](release/CS2VideoStretcher-Setup-0.1.0.exe). O instalador inclui o aplicativo, o FFmpeg e o FFprobe; não é necessário localizar ou instalar essas ferramentas separadamente.
+
+O pacote inclui uma compilação do FFmpeg com suporte a `libx264`. Os avisos de licença e as informações da compilação estão instalados junto ao aplicativo, na pasta `Licencas`.
+
 ## Estado atual
 
 A versão funcional atual permite selecionar um vídeo, consultar resolução e duração, escolher resolução de saída, qualidade CRF e pasta de destino, além de acompanhar o progresso da conversão. Processamento em lote, NVENC, histórico, configurações salvas e pré-visualização ainda não foram implementados.
