@@ -1,0 +1,23 @@
+name: Relatar um problema
+description: Informe um problema que possa ser reproduzido
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Como reproduzir
+      description: Se for relevante, informe o formato do vídeo e as opções de exportação usadas.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versão do app e do Windows
+    validations:
+      required: true

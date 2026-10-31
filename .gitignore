@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.pytest-run/
+CS2VideoStretcher-Setup-*.exe
+.idea/
+.vscode/
+*.spec
+*.mp4
+*.mkv
+*.mov
+*.avi

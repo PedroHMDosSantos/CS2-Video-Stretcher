@@ -1,0 +1,10 @@
+name: Sugerir um recurso
+description: Sugira uma melhoria para o projeto
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: O que você gostaria de fazer?
+      description: Explique o caso de uso e o resultado que espera.
+    validations:
+      required: true
