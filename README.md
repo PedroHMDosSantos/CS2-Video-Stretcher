@@ -1,6 +1,8 @@
 # CS2 Video Stretcher
 
-Aplicativo para Windows que converte gravações de gameplay do Counter-Strike 2 para widescreen esticado. O FFmpeg redimensiona o quadro inteiro, sem cortar a imagem nem adicionar barras pretas.
+Aplicativo para Windows que estica vídeos para widescreen sem cortar a imagem nem adicionar barras pretas. Ele aceita gravações de qualquer jogo ou outro vídeo compatível com FFmpeg.
+
+O projeto nasceu de um problema com clipes e gravações do Counter-Strike 2: eles podiam sair com barras pretas e sem o esticamento horizontal que aparecia durante o jogo. O app permite aplicar esse esticamento também ao vídeo gravado.
 
 ## Baixar para Windows
 
@@ -33,7 +35,7 @@ O app não requer pacotes Python de terceiros para funcionar. Para executar pelo
 
 ## Como usar
 
-1. Selecione um vídeo de gameplay.
+1. Selecione um vídeo compatível com FFmpeg, como uma gravação de gameplay.
 2. Confira a resolução e a duração detectadas.
 3. Escolha a resolução de saída e a qualidade. Um CRF menor gera mais qualidade e arquivos maiores.
 4. Escolha a pasta de destino e inicie a conversão.
